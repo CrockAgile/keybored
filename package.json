@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "MIDI keyboard unconscious competence training",
+  "scripts": {
+    "build": "parcel build src/index.html --no-source-maps --dist-dir dist",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrockAgile/keybored.git"
+  },
+  "keywords": [
+    "MIDI",
+    "keyboard"
+  ],
+  "author": "@crockagile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrockAgile/keybored/issues"
+  },
+  "homepage": "https://github.com/CrockAgile/keybored#readme",
+  "devDependencies": {
+    "@parcel/transformer-elm": "^2.7.0",
+    "elm": "^0.19.1-5",
+    "parcel": "2.7"
+  }
+}
